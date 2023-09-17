@@ -1,0 +1,53 @@
+* {
+    
+    margin: 0;
+    padding: 0
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  color: #FFF;
+  height: 100px;
+  background-color: #1A202C; 
+  box-shadow: 0 0 20px 3px;
+}
+
+nav h3 {
+    margin: 0;
+    padding: 0;
+}
+
+ul { 
+    list-style: none;
+}
+
+a { 
+    text-decoration: none;
+    color: #FFF;
+    font-size: large;
+}
+
+.dropdown-med-true { 
+    opacity: 1;
+    visibility: visible;
+    border: 1px solid #FFF;
+}
+
+.dropdown-med-false { 
+    opacity: 0;
+    visibility: hidden;
+}
+
+.dropdown-farma-true { 
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-farma-false { 
+    opacity: 0;
+    visibility: hidden;
+}
